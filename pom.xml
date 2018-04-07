@@ -23,7 +23,7 @@
         <groupId>org.javamoney</groupId>
         <artifactId>javamoney-parent</artifactId>
     </parent>
-    <artifactId>javamoney-lib</artifactId>
+    <artifactId>javamoney-lib-bp</artifactId>
     <groupId>org.javamoney.lib</groupId>
     <name>Money and Currency - JavaMoney Libraries (parent)</name>
     <packaging>pom</packaging>
@@ -209,7 +209,7 @@
     <dependencies>
         <dependency>
             <groupId>javax.money</groupId>
-            <artifactId>money-api</artifactId>
+            <artifactId>money-api-bp</artifactId>
             <version>${jsr.version}</version>
         </dependency>
         <dependency>
@@ -219,9 +219,8 @@
         </dependency>
         <dependency>
             <groupId>org.javamoney</groupId>
-            <artifactId>moneta</artifactId>
+            <artifactId>moneta-bp</artifactId>
             <version>${jsr.version}</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>

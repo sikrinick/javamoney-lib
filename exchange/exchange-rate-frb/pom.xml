@@ -38,7 +38,7 @@
 					<uri>https://www.federalreserve.gov/feeds/data/H10_H10.XML</uri>
 					<overwrite>true</overwrite>
 					<outputDirectory>src/main/resources/java-money/defaults/FRB</outputDirectory>
-					<outputFile>H10_H10.XML</outputFile>
+					<outputFileName>H10_H10.XML</outputFileName>
 				</configuration>
 				<!--<executions>-->
 					<!--<execution>-->
@@ -61,7 +61,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.javamoney</groupId>
-			<artifactId>moneta</artifactId>
+			<artifactId>moneta-bp</artifactId>
 		</dependency>
 		<!-- OSGI support -->
 		<dependency>

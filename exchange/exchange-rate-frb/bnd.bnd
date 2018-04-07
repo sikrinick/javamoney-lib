@@ -6,8 +6,8 @@
 -testpath: \
 	${junit}
 
-javac.source: 1.8
-javac.target: 1.8
+javac.source: 1.7
+javac.target: 1.7
 
 Automatic-Module-Name: org.javamoney.moneta.convert.frb
 Bundle-Version: ${version}.${tstamp}

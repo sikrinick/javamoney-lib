@@ -61,7 +61,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.javamoney</groupId>
-			<artifactId>moneta</artifactId>
+			<artifactId>moneta-bp</artifactId>
 		</dependency>
 		<!-- OSGI support -->
 		<dependency>

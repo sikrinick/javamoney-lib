@@ -31,7 +31,7 @@
 	<!-- Try to find workaround for problem attaching sources to bundle, as 
 		of now manually switching to "jar" works -->
 	<properties>
-		<jdkVersion>1.8</jdkVersion>
+		<jdkVersion>1.6</jdkVersion>
 		<maven.compile.targetLevel>${jdkVersion}</maven.compile.targetLevel>
 		<maven.compile.sourceLevel>${jdkVersion}</maven.compile.sourceLevel>
 	</properties>
@@ -52,6 +52,14 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>7</source>
+					<target>7</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
